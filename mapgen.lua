@@ -19,7 +19,7 @@ function make_bamboo(pos, size)
 		if minetest.get_node(p).name ~= "air" then
 			return
 		end
-		minetest.set_node(p, {name="bamboo:bamboo"})k
+		minetest.set_node(p, {name="bamboo:bamboo"})
 	end
 end
 
